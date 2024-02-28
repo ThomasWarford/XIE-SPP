@@ -1,7 +1,7 @@
 # formation_energy/predictor.py
 from . import model as model_module
-# from . import CVR
-import CVR
+from xiespp import CVR
+#import CVR
 import functools
 
 
